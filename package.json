@@ -1,0 +1,26 @@
+{
+  "name": "avaliacaofinalnodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/joaoaleite22/AvaliacaoFinalNodeAPI#readme",
+  "bugs": {
+    "url": "https://github.com/joaoaleite22/AvaliacaoFinalNodeAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoaleite22/AvaliacaoFinalNodeAPI.git"
+  },
+  "license": "ISC",
+  "author": "João Augusto",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.8"
+  }
+}
