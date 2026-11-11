@@ -12,7 +12,7 @@ class ServiceAtendimento {
             throw new Error("Favor informar somente números")
         }
 
-        return Atendimento.BuscarUm(id)
+        return Atendimento.findByPk(id)
     }
     
     async Criar(dia, hora, valor, concluido) {

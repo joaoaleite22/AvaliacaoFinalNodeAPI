@@ -28,4 +28,3 @@ class Atendimento {
 export default new Atendimento().model
 
 
-dia, hora, valor, concluido
